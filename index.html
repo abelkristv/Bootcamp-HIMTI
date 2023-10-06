@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HoloLive</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,900;1,100;1,200;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="assets/hololive_logo.png" alt="" width="60px" height="17px">
+            <div class="navmenu">
+                <a href="#">Merchandise</a>
+                <a href="#">Our Talent</a>
+                <a href="#">About Us</a>
+            </div>
+            <button class="follow-us">Follow us</button>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Hi im</h1>
+            <h1 style="font-size: 50px;"><span style="color: rgb(80, 170, 255);">Kobo</span> Kanaeru</h1>
+            <p>Im a member of hololive production</p>
+            <button class="follow-me">Follow me</button>
+        </section>
+        <section class="my-friends-section">
+            <h1>My Friends</h1>
+            <div class="my-friends">
+                <div class="card">
+                    <div class="card-head">
+                        <img style="width: 160px; height: 160px;" src="assets/kaela.webp" alt="">
+                        <h1> <span style="color: rgb(255, 208, 0);">Kaela</span> Kovalskia</h1>
+                        <hr>
+                        <p>Hi im a penguin from hololive ID, I currently has 253k subscriber. Go check out my channel</p>
+                    </div>
+                    <button class="check-kaela">
+                        Check <span style="color: white;">Me</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <div class="card-head">
+                        <img style="width: 160px; height: 160px"  src="assets/zeta.jpg" alt="">
+                        <h1> <span style="color: rgb(158, 158, 158);">Vestia</span> Zeta</h1>
+                        <hr>
+                        <p>Hi im a cat from hololive ID, I currently has 811k subscriber. Go check out my channel</p>
+                    </div>
+                    <button class="check-zeta">
+                        Check <span style="color: white;">Me</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <div class="card-head">
+                        <img style="width: 160px; height: 160px" src="assets/moona.jpg" alt="">
+                        <h1><span style="color: rgb(182, 42, 224);">Moona</span> Hoshinova</h1>
+                        <hr>
+                        <p>Hi im a moon goddess from hololive ID, I currently has 1.33M subscriber. Go check out my channel</p>
+                    </div>
+                    <button class="check-moona">
+                        Check <span style="color: white;">Me</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="send-something">
+            <div class="kobo-image">
+                <img src="assets/kobooo.png" alt="" width="300px" height="300px">
+            </div>
+            <form action="" method="POST" class="send-me-something-form">
+                <label for="name">Name</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="Submit" style="margin-top: 10px; width: 100px;">
+            </form>
+        </section>
+    </main>
+</body>
+</html>

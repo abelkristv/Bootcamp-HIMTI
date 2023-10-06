@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    font-size: 10px;
+}
+
+nav {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navmenu {
+    display: flex;
+    gap: 10px;
+    font-size: 10px;
+}
+
+.hero {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding-left: 20px;
+    background-image: url('assets/kobo_webp.webp');
+}
+
+.follow-us {
+    background-color: rgb(80, 170, 255);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 10px;
+    width: 70px;
+    height: 20px;   
+}
+
+.follow-us:hover {
+    background-color: rgb(139, 195, 248);
+    cursor: pointer;
+}
+
+.follow-me {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(80, 170, 255);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.check-kaela {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(255, 196, 0);
+    border: none;
+    border-radius: 10px;
+}
+
+.check-kaela:hover {
+    cursor: pointer;
+    background-color: rgb(255, 217, 93);
+}
+
+.check-zeta {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(150, 150, 150);
+    border: none;
+    border-radius: 10px;
+}
+
+.check-zeta:hover {
+    cursor: pointer;
+    background-color: rgb(192, 192, 192);
+}
+
+.check-moona {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(206, 0, 171);
+    border: none;
+    border-radius: 10px;
+}
+
+.check-moona:hover {
+    cursor: pointer;
+    background-color: rgb(255, 105, 230);
+}
+
+.follow-me:hover {
+    cursor: pointer;
+    background-color: rgb(139, 195, 248);
+}
+
+.my-friends {
+    display: grid;
+    padding: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-friends-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.card {
+    width: 100%;
+    height: 350px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #888888;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.send-something {
+    width: 100%;
+    height: 400px;
+    background-image: url('assets/form-bg.jpg');
+    display: flex;
+}
+
+.kobo-image {
+    padding: 50px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.send-me-something-form {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+}
+
+.send-me-something-form > * {
+    width: 70%;
+}
